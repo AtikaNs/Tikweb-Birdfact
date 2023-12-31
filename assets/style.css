@@ -1,0 +1,141 @@
+/* || General setup */
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 11px;
+  background-color: lightblue;
+}
+
+body {
+  width: 80%;
+  min-width: device-width;
+  margin: 0 auto;
+}
+
+/* || typography */
+
+h1, h2, h3 {
+  font-family: 'Cinzel Decorative', cursive;
+  color: black;
+}
+
+p, input, li {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #2a2a2a;
+}
+
+h1 {
+  font-size: 4rem;
+  text-align: center;
+  text-shadow: 2px 2px 5px black;
+}
+
+h2 {
+  font-size: 2.4rem;
+  text-align: center;
+}
+
+p, li {
+  font-size: 1.8rem;
+  line-height: 1.5;
+}
+
+footer p {
+  font-size: 1.6rem;
+}
+
+/* || header layout */
+
+header {
+  margin-bottom: 10px;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+body > * {
+  background-color: lightskyblue;
+  padding: 1%;
+  box-shadow: inset 5px 10px lightblue;
+}
+
+main, nav, article, aside, footer, section {
+  background-color: lightskyblue;
+  padding: 1%;
+}
+
+h1 {
+  flex: 3;
+  text-transform: uppercase;
+}
+
+header img {
+  display: block;
+  height: 60px;
+  padding-top: 20.15px;
+}
+
+nav {
+  height: 50px;
+  font-weight: bold;
+  flex: 100%;
+  display: flex;
+  letter-spacing: 2px;
+}
+
+nav ul {
+  padding: 1;
+  list-style-type: none;
+  flex: 2;
+  display: flex;
+}
+
+nav li {
+  display: inline;
+  text-align: center;
+  flex: 1;
+}
+
+nav a, nav span {
+  display: inline-block;
+  font-size: 2rem;
+  height: 3rem;
+  line-height: 1.7;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+}
+
+/* || main layout */
+
+main {
+  display: flex;
+}
+
+article, section {
+  flex: 4;
+}
+
+aside {
+  width: 26.75%;
+  flex: 1;
+  float: right;
+  padding: 1%;
+}
+
+aside a {
+  display: flex;
+  float: right;
+  width: 50%;
+}
+
+aside img {
+  max-width: 100%;
+}
+
+footer {
+  margin-top: 10px;
+}
