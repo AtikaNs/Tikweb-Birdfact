@@ -7,7 +7,7 @@ html, body {
 
 html {
   font-size: 11px;
-  background-color: lightblue;
+  background-color: powderblue;
 }
 
 body {
@@ -57,13 +57,13 @@ header {
 }
 
 body > * {
-  background-color: lightskyblue;
+  background-color: lightblue;
   padding: 1%;
-  box-shadow: inset 5px 10px lightblue;
+  box-shadow: inset 5px 10px powderblue;
 }
 
 main, nav, article, aside, footer, section {
-  background-color: lightskyblue;
+  background-color: lightblue;
   padding: 1%;
 }
 
